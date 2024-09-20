@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  top: 0;
+  margin: 0;
+  font-family: "Poppins", system-ui;
+}
+
+body {
+  background-color: rgb(129, 129, 129);
+  display: flex;
+  justify-content: center;
+
+}
+
+h1 {
+  margin-top: 100px;
+  text-align: center;
+  font-weight: 300;
+}
+
+input {
+  padding: 6px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 30vw;
+  border: none;
+  height: 4vh;
+  border-radius: 20px;
+  outline: none;
+}
+
+button {
+  margin-top: 10px;
+  width: 10vw;
+  border: none;
+  height: 4vh;
+  border-radius: 20px;
+}
+
+h2{
+  font-weight: 300;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+ul {
+  margin-left: -25px;
+}
+
+.btn-excluir {
+  width: 5vw;
+  margin-left: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  h1 {
+    margin-top: 30px;
+    font-size: 1.8rem;
+  }
+
+  input {
+    width: 90%;
+    height: 40px;
+  }
+
+  button {
+    width: 70%;
+  }
+
+  .btn-excluir {
+    width: 20vw;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+
+  input {
+    width: 95%;
+    height: 35px;
+  }
+
+  button {
+    width: 70%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+  }
+
+  .btn-excluir {
+    width: 20vw;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+  }
+}
